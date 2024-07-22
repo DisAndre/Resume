@@ -1,0 +1,54 @@
+/*General stylising*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+p{
+    color:rgb(85,85,85);
+}
+
+/*animations*/
+
+a,
+.btn{
+    transition: all 120ms ease; /*????*/
+}
+
+/*desktop navigation bar*/
+nav, .DTnavlinks{
+    display: flex;
+}
+
+nav {
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.DTnavlinks{
+    gap: 2rem;
+    list-style: none;
+    font-size:1.5rem;
+}
+
+a{
+    color:black;
+    text-decoration:solid;
+    text-decoration-color: black;
+}
+
+a:hover{
+    color:rgb(38, 170, 71);
+    text-decoration: underline;
+}
