@@ -66,6 +66,24 @@ section{
     display: flex;
 }
 
+#aboutMe{
+    display: flex;
+    justify-content: center;
+    gap:10rem;
+    height:80vh
+}
+
+.profilepicture{
+    display:flex;
+    height:400px;
+    width:400px;
+    margin:auto 0;
+}
+
+.aboutMeText{
+    align-self:center;
+    text-align: center;
+}
 
 
 
