@@ -52,3 +52,20 @@ a:hover{
     color:rgb(38, 170, 71);
     text-decoration: underline;
 }
+
+/*pages*/
+
+section{
+    padding-top: 4.5vh;
+    height:96vh;
+    margin:0 9.2rem;
+    box-sizing:border-box;
+    min-height: fit-content;
+}
+.section-container{
+    display: flex;
+}
+
+
+
+
