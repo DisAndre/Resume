@@ -97,6 +97,26 @@ section{
     padding:2rem;
 }
 
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:2rem;
+}
+.skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.skill img{
+    max-width:100px;
+    height:auto;
+}
+.titleSkills{
+    text-align:center;
+    font-size:2rem;
+}
 
 
 
