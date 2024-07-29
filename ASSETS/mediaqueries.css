@@ -24,6 +24,9 @@
     }
 
     .skills{
-        gap:0.5rem;
+        gap:0rem;
+    }
+    .skills img{
+        max-width:100px;
     }
 }
