@@ -110,12 +110,14 @@ section{
     padding: 1rem;
 }
 .skill img{
-    max-width:100px;
+    max-width:200px;
     height:auto;
 }
 .titleSkills{
+    margin-top:5rem;
     text-align:center;
     font-size:2rem;
+    padding-bottom:2rem;
 }
 
 

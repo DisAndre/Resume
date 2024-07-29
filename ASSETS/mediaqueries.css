@@ -22,4 +22,8 @@
         text-align: left;
         padding: 1rem;
     }
+
+    .skills{
+        gap:0.5rem;
+    }
 }
