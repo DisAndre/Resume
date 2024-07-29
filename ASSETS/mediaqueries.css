@@ -2,4 +2,21 @@
     #desktopNavigationmenu{
         display:none;
     }
+    #aboutMe {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profilepicture {
+        width: 100%;
+        margin: 5rem 0 1rem 0;
+        padding: 1rem;
+    }
+
+    .aboutMeText {
+        width: 100%;
+        margin: 1rem 0;
+        text-align: left;
+        padding: 1rem;
+    }
 }
