@@ -15,9 +15,10 @@
         max-width:360px;
         overflow:hidden;
     }
+    
 
     .aboutMeText {
-        width: 100%;
+        width: 200%;
         margin: 1rem 0;
         text-align: left;
         padding: 1rem;
@@ -28,5 +29,8 @@
     }
     .skills img{
         max-width:100px;
+    }
+    .skill{
+        gap:0rem;
     }
 }

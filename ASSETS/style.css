@@ -101,13 +101,13 @@ section{
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
-    gap:2rem;
+    gap:0rem;
 }
 .skill{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 2rem;
 }
 .skill img{
     max-width:200px;
