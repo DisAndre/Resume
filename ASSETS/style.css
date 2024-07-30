@@ -135,7 +135,37 @@ section{
     padding-bottom:2rem;
 }
 
+.titleProjects{
+    margin-top:5rem;
+    text-align:center;
+    font-size:2rem;
+    padding-bottom:2rem;
+}
 
+.proj {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.projicon {
+    text-align: center;
+}
+
+.projicon img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.projText {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #000000;
+}
 
 
 
