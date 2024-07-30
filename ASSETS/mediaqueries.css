@@ -1,4 +1,4 @@
-@media (max-width:800px){
+@media (max-width:850px){
     #desktopNavigationmenu{
         display:none;
     }
@@ -11,14 +11,14 @@
     .profilepicture {
         width: 100%;
         margin: 5rem 0 1rem 0;
-        padding: 1rem;
+        padding:1rem;
         max-width:360px;
         overflow:hidden;
     }
     
 
     .aboutMeText {
-        width: 200%;
+        width: 100%;
         margin: 1rem 0;
         text-align: left;
         padding: 1rem;
@@ -32,5 +32,16 @@
     }
     .skill{
         gap:0rem;
+    }
+
+    .toTop
+    {
+        width:40px;
+        height:40px;
+    }
+}
+@media(max-width:400px){
+    .aboutMeText{
+        width:250%;
     }
 }
