@@ -39,9 +39,45 @@
         width:40px;
         height:40px;
     }
+
+    .proj {
+        flex-direction: column;
+    }
+
+    .projicon {
+        flex-direction: column;
+        width: 300px;
+        height: 300px;
+        padding: 2rem;
+        padding-right: 2rem;
+    }
+
+    .projDetails {
+        margin-top: 2rem;
+        text-align:left;
+        justify-content:center;
+        padding-left:50px;
+    }
+   
 }
 @media(max-width:400px){
     .aboutMeText{
         width:250%;
+    }
+    .proj {
+        margin-top:1rem;
+        flex-direction: column;
+    }
+
+    .projicon {
+        flex-direction: column;
+        width: 300px;
+        height: 300px;
+        padding: 2rem;
+        padding-right: 2rem;
+    }
+
+    .projDetails {
+        margin-top: 2rem;
     }
 }
