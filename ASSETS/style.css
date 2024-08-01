@@ -150,6 +150,8 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap:0rem;
+    margin:0;
 }
 
 .projicon {
@@ -157,8 +159,9 @@ section {
     flex-direction: row;
     align-items: center;
     text-align: left;
-    padding: 2rem;
+    padding: 0;
     gap: 0;
+    
 }
 
 .projicon img {
@@ -188,8 +191,9 @@ section {
 
 /* CV Section Styling */
 #CV {
-    padding: 2rem;
+    padding-bottom: 5em;
     text-align: center;
+    margin:0;
 }
 
 .cvicon {
