@@ -25,7 +25,7 @@ html {
 p {
     color: rgb(85, 85, 85);
 }
-
+ 
 /* Button */
 .toTop {
     position: fixed;
@@ -118,6 +118,7 @@ section {
     padding: 1rem;
     background: #f9f9f9;
     border-radius: 1rem;
+    font-size:1.25em;
 }
 
 .skills {
@@ -261,6 +262,14 @@ section {
 }
 
 .githubicon img:hover, .linkedinicon img:hover {
+    transform: scale(1.1);
+}
+
+.projicon img:hover {
+    transform: scale(1.1);
+}
+
+.cvicon img:hover {
     transform: scale(1.1);
 }
 
