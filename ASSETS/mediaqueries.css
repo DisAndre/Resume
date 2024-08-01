@@ -2,7 +2,7 @@
 @media (max-width: 768px) {
     
     #CV {
-        padding-top:15em;
+        padding-top:3em;
         display: flex; 
         flex-direction: row; 
         justify-content: center; 
@@ -47,7 +47,12 @@
         width: 200px;
         height: 200px;
     }
-
+    .pleasealignproperlylol{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
     .projicon img {
         max-width: 200px;
         max-height: auto;
