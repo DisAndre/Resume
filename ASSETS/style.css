@@ -188,5 +188,69 @@ section{
     border: none;
     display: block;
 }
+/*CV Section Styling*/
+#CV {
+    padding: 20px;
+    text-align: center;
+}
+
+.cvicon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; 
+}
+
+.cvicon img {
+    max-width: 150px;
+    height: auto; 
+}
+
+.titleCV {
+    font-size: 2em; 
+    margin-bottom: 10px;
+    color: #000; 
+}
+
+.cvicon p1 {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #000000; 
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.cvicon p1:hover {
+    color: #0056b3; 
+}
+#Contact {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    text-align:center;
+}
+#Contact h1 {
+    font-size: 2em;
+    margin-bottom: 1rem;
+    color: #333;
+    display: block;
+    width: 100%;
+}
+
+.githubicon, .linkedinicon {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.githubicon img, .linkedinicon img {
+    width: 10em;
+    height: 10em;
+}
+
+.githubicon img:hover, .linkedinicon img:hover {
+    transform: scale(1.1);
+}
+
 
 

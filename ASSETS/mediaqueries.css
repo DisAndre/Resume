@@ -58,7 +58,24 @@
         justify-content:center;
         padding-left:50px;
     }
-   
+    .titleCV {
+        font-size: 1.5em;
+    }
+    
+    .cvicon img {
+        max-width: 100px; 
+    }
+    
+    .cvicon p1 {
+        font-size: 1em; 
+    }
+    #Contact{
+        flex-direction: column;
+    }
+    .githubicon img, .linkedinicon img {
+        max-width: 200px;
+        height: auto;
+    }
 }
 @media(max-width:400px){
     .aboutMeText{
