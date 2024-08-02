@@ -13,6 +13,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
     background-color: #f2f2f2;
+    background: linear-gradient(to top, white, lightblue);
 }
 
 section {
@@ -81,6 +82,7 @@ section {
     padding-top: 4.5vh;
     padding: 2rem 9.2rem;
     min-height: fit-content;
+    
 }
 
 .section-container {
@@ -124,6 +126,8 @@ section {
     background: #f9f9f9;
     border-radius: 1rem;
     font-size:1.25em;
+    background: linear-gradient(to bottom, white, lightblue);
+    color:#000;
 }
 
 .skills {
@@ -176,6 +180,8 @@ section {
     margin:0;
     border: 2px solid #000; 
     padding: 1rem; 
+    border-radius:1em;
+    background: linear-gradient(to bottom, white, lightblue);
 }
 
 .projicon {
@@ -198,7 +204,7 @@ section {
     font-weight: bold;
     color: #000000;
     list-style-type: none;
-    border: 2px solid #000; 
+    border-left: 2px solid #000; 
     padding: 2rem; 
 }
 
@@ -230,6 +236,8 @@ section {
     gap: 1rem;
     border: 2px solid #000;
     box-sizing:border-box;
+    border-radius:1em;
+    background: linear-gradient(to top, white, lightblue);
 }
 
 .cvicon img {
@@ -297,8 +305,9 @@ section {
     text-align:center;
     justify-content: center;
     align-items:center;
-    border: 2px solid #000; 
+    border-top: 2px solid #000; 
     padding: 1rem; 
+
   }
   
   .skill-text {
@@ -315,10 +324,14 @@ section {
     padding: 1rem;
     margin-left: 7em;
     margin-right:7em;
+    border-radius:1em;
+    background: linear-gradient(to bottom, white, lightblue);
 }
   .skillswrapper{
     border: 2px solid #000; 
     padding: 1rem; 
+    border-radius:1em;
+    background: linear-gradient(to top, white, lightblue);
   }
 
 
